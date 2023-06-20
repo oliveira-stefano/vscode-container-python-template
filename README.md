@@ -29,6 +29,12 @@ docker-compose.yml           # Arquivo de configuração do Docker Compose
 docker-compose.override.yml  # Arquivo de configuração do Docker Compose
 README.md                    # Este arquivo
 .docker                      # Diretório de arquivos temporários do Docker
+    zsh                      # Diretório de arquivos temporários do ZSH
+        history              # Diretório de arquivos temporários do histórico do ZSH
+            .gitkeep         # Arquivo de configuração do Git
+        powerlevel10k        # Diretório de arquivos temporários do Powerlevel10k
+            .p10k.zsh        # Arquivo de configuração do Powerlevel10k
 cmd                          # Diretório de scripts utilitários
 .gitignore                   # Arquivo de configuração do Git
+
 ```
