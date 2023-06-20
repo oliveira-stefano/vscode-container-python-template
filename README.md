@@ -38,3 +38,7 @@ cmd                          # Diretório de scripts utilitários
 .gitignore                   # Arquivo de configuração do Git
 
 ```
+
+## Erros conhecidos
+
+- Ao executar o comando `docker-compose up` pela primeira vez, o arquivo `cmd/start-container-dev-app.sh` pode não ter permissão de execução. Para corrigir isso, execute o comando `chmod +x cmd/start-container-dev-app.sh` no diretório raiz do projeto.
