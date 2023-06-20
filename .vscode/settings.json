@@ -1,0 +1,48 @@
+{
+    //Stefano's config
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.fontWeight": "600",    
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "600",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+    },
+
+    "workbench.iconTheme": "material-icon-theme",
+    "python.linting.pylintPath": ".venv/bin/pylint",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.pythonPath": ".venv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    //--disable=C0111 é usado para desabilitar o aviso do Pylint relacionado à falta de docstrings (comentários de documentação) em funções, classes e métodos.
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+    ],
+    "python.autoComplete.extraPaths": [
+        "./src",
+        "${workspaceFolder}/.venv/lib",
+    ],
+    "python.analysis.extraPaths": [
+        "./src",
+        "${workspaceFolder}/.venv/lib",
+    ],
+
+
+    "workbench.startupEditor": "none",
+    //Impedir que as pastas sejam compactadas
+	"explorer.compactFolders": false,
+    //Lado do workbench
+    "editor.minimap.enabled": false,
+}
