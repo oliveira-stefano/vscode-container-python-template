@@ -4,7 +4,7 @@ O Template de Aplicação Python é um projeto de base que visa facilitar o iní
 Ele foi desenvolvido para fornecer uma estrutura pré-configurada e pronta para uso, permitindo que eu me concentre na lógica do aplicativo em vez de lidar com configurações iniciais.
 
 
-## Como usar
+## Como clonar este template
 
 Para usar este modelo, você deve clonar este [repositório](https://github.com/oliveira-stefano/vscode-container-python-template.git)
 
@@ -21,7 +21,6 @@ rm -rf .git
 
 ```
 .vscode/                     # Configurações do VSCode
-    extensions.json          # Extensões recomendadas
     settings.json            # Configurações do VSCode
 src/                         # Código fonte
 Dockerfile                   # Arquivo de configuração do Docker
@@ -38,6 +37,16 @@ cmd                          # Diretório de scripts utilitários
 .gitignore                   # Arquivo de configuração do Git
 
 ```
+
+## Como usar
+
+Apos clonar o repositório, você deve executar a aplicação no container do vscode, e executar os comandos abaixo:
+
+```bash
+pdm init
+pdm install
+```
+
 
 ## Erros conhecidos
 
